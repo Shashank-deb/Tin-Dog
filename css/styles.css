@@ -1,0 +1,174 @@
+body {
+  font-family: "Montserrat-dark";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-bold";
+}
+
+/* Heading-section */
+.big-heading {
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.section-heading {
+  color: brown;
+  font-size: 2em;
+  font-family: Ubuntu;
+}
+/* title-section */
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+#title-image {
+  width: 30%;
+  transform: rotate(20deg);
+}
+#title .container-fluid {
+  padding: 5% 10%;
+}
+/* container-section */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* features-section */
+#features {
+  background-color: #fff;
+  padding: 4;
+}
+.features-title {
+  font-weight: bold;
+  color: darkred;
+  font-size: 1.5em;
+}
+.row {
+  padding-left: 6%;
+  margin-left: 5%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+  padding: 10px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  color: #fff;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0% 10%;
+}
+.nav-link {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+.icon {
+  color: #cc5d6d;
+  margin: 1rem;
+}
+.icon:hover {
+  color: #b6031e;
+}
+
+/* testomonial-section */
+#testimonials {
+  padding: 7% 15%;
+
+  background-color: #c37b89;
+  color: #fff;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* press-section */
+#press {
+  background-color: #c37b89;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.logo {
+  width: 20%;
+  margin: 23px 20px 30px 40px;
+}
+/* .carousel-item {
+  padding: 7% 15%;
+} */
+
+/* mediaquery-breakpoints */
+@media (max-width: 1349px) {
+  #title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+@media (max-width: 1349px) {
+  #title {
+    text-align: center;
+    color: black;
+  }
+}
+
+/* pricing-section */
+#pricing {
+  padding: 30px;
+  margin-right: 6%;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* cta-section */
+#cta {
+  background-color: #ff4c68;
+
+  color: #fff;
+}
+.cta-button {
+  margin-left: 3%;
+}
+.cta-heading {
+  font-size: 3.5rem;
+  padding-bottom: 10%;
+}
+/* footer-section */
+#footer {
+}
+.social-icon {
+  margin: 10px 20px;
+}
+.footer-link {
+  color: #080102;
+}
+.footer-link:hover {
+  color: #aa1329;
+}
+.footer-copyright {
+  font-family: "Ubunutu";
+  font-size: 2rem;
+}
+.footer-container {
+  padding-bottom: 3%;
+}
